@@ -13,43 +13,59 @@
 </head>
 <body>
     <header>
-        <nav class="ud-main-menu">
-            <ul>
-                <li>
-                    <a href="#">Home  <i class="fas fa-angle-down"></i></a>
-                    <ul class="ud-main-menu__sub-menu">
-                        <li><a href="#">Home 1</a></li>
-                        <li><a href="#">Home 2</a></li>
-                        <li><a href="#">Home 3</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services <i class="fas fa-angle-down"></i></a>
-                    <ul class="ud-main-menu__sub-menu">
-                        <li><a href="#">Services 1</a></li>
-                        <li><a href="#">Services 2</a></li>
-                        <li><a href="#">Services 3</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
-                    <ul class="ud-main-menu__sub-menu">
-                        <li><a href="#">Portfolio 1</a></li>
-                        <li><a href="#">Portfolio 2</a></li>
-                        <li><a href="#">Portfolio 3</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="ud-main-menu">
+            <!-- <div class="ud-main-menu__logo">
+                <a href="#">Logo</a>
+            </div> -->
+
+            <div class="ud-main-menu__hamberger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="ud-main-menu__nav">
+                <ul>
+                    <li>
+                        <a href="#">Home  <i class="fas fa-angle-down"></i></a>
+                        <ul class="ud-main-menu__nav__sub-menu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services <i class="fas fa-angle-down"></i></a>
+                        <ul class="ud-main-menu__nav__sub-menu">
+                            <li><a href="#">Services 1</a></li>
+                            <li><a href="#">Services 2</a></li>
+                            <li><a href="#">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
+                        <ul class="ud-main-menu__nav__sub-menu">
+                            <li><a href="#">Portfolio 1</a></li>
+                            <li><a href="#">Portfolio 2</a></li>
+                            <li><a href="#">Portfolio 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="ud-main-menu__overlay"></div>
+        </div>
     </header>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
 </body>
 </html>
